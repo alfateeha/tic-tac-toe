@@ -1,0 +1,40 @@
+body{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    gap: 5px;
+}
+
+.players{
+    font-size: 2rem;
+}
+
+.button{
+    background-color: #FFFBD1;
+    border: 0px;
+}
+
+.x-background{
+    background-image: url(./Assets/X.png);
+    background-size: contain;
+    border: 0px;
+}
+
+.o-background{
+    background-image: url(./Assets/O.png);
+    background-size: contain;
+    border: 0px;
+}
+
+.hidden{
+    display: none;
+}
